@@ -1,8 +1,30 @@
-blank_issues_enabled: false
-contact_links:
-  - name: ❓ Ask a Question
-    url: https://github.com/alshedivat/al-folio/discussions/categories/q-a
-    about: Ask and answer al-folio related questions.
-  - name: 📖 Read the documentation
-    url: https://github.com/alshedivat/al-folio/blob/main/README.md
-    about: Please consult the documentation before opening any issues!
+# 网站基本信息
+name: Li Hua  # 你的姓名（会显示在导航栏左上角）
+title: Ph.D. Student @ Tsinghua University  # 你的学术身份（主页顶部大标题）
+email: lihua@tsinghua.edu.cn  # 联系邮箱（建议学校邮箱，专业度高）
+description: Research on machine learning and computer vision.  # 网站描述（搜索引擎会抓取）
+avatar: /assets/img/avatar.jpg  # 头像路径（后面会上传头像，先按这个格式写）
+
+# 研究方向（会显示在主页“About”部分下方）
+interests:
+  - Machine Learning  # 研究方向1（英文或中文均可，建议和论文关键词一致）
+  - Medical Image Analysis  # 研究方向2
+
+# 导航栏菜单（控制顶部显示哪些页面）
+nav:
+  - about: /  # “关于我”页面，对应_pages/about.md
+  - publications: /publications/  # 论文页面，对应_pages/publications.md
+  - research: /research/  # 研究方向页面，对应_pages/research.md
+  - projects: /projects/  # 项目页面（可选，不需要可删除这行）
+  - cv: /cv/  # 简历页面（可选）
+  - contact: /contact/  # 联系方式页面（可选）
+
+# 社交账号链接（会显示在导航栏右侧，图标自动生成）
+social:
+  - icon: google-scholar  # 图标名称（固定，不能改）
+    link: https://scholar.google.com/citations?user=你的谷歌学术ID  # 替换成你的谷歌学术链接
+  - icon: github  # GitHub图标
+    link: https://github.com/你的GitHub用户名  # 你的GitHub主页链接
+  - icon: cv  # 简历图标（如果提供CV下载）
+    link: /assets/pdf/cv.pdf  # CV文件路径（后面上传后生效）
+  # 其他可选：linkedin（领英）、researchgate（研究门）等，格式同上
